@@ -2,159 +2,125 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BodyTrack - Coming Soon</title>
-    <meta name="description"
-        content="BodyTrack: Your Daily Calorie Coach. Track workouts, meals, and more. Coming soon!">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons (optional) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <style>
-        :root {
-            --primary-color: #8257E5;
-        }
-
-        /* Override Bootstrap Primary Button */
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-
-        .btn-primary:hover,
-        .btn-primary:focus {
-            background-color: #6d3acb;
-            border-color: #6d3acb;
-        }
-
-        /* Navbar */
-        .navbar-dark {
-            background-color: var(--primary-color);
-        }
-
-        .navbar-dark .navbar-brand,
-        .navbar-dark .nav-link {
-            color: #fff;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1502224562085-639556652f33?q=80&w=2856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
-            color: #fff;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-            padding: 0 15px;
-        }
-
-        .hero h1 {
-            font-size: 4rem;
-            font-weight: 700;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            margin-top: 20px;
-        }
-
-        .subscribe-form input[type="email"] {
-            max-width: 400px;
-            margin-right: 10px;
-        }
-
-        /* Features Section */
-        #features {
-            padding: 60px 0;
-        }
-
-        #features .feature-icon {
-            font-size: 3rem;
-            color: var(--primary-color);
-            margin-bottom: 15px;
-        }
-
-        /* Footer */
-        footer {
-            background: #343a40;
-            color: #ccc;
-            padding: 20px 0;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BodyTrack | Your Daily Health & Fitness Coach</title>
+  <meta name="description"
+    content="BodyTrack: Your Daily Health & Fitness Coach. Track calories, meals, workouts, steps, water intake, weight, and more. Coming soon!">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">BodyTrack</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">BodyTrack</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/privacy-policy.html">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md">
-                    <!-- <img src="https://via.placeholder.com/100?text=Icon" alt="BodyTrack Icon" class="app-icon"> -->
-                <h1>BodyTrack</h1>
-                <p>Coming Soon!</p>
-                <p class="lead">Your Daily Calorie Coach</p>
-                </div>
-                <div class="col-md">
-                    <img src="assets/img/Shot.png" alt="3 BodyTrack screenshot" class="img-fluid">
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+      <div class="container hero-content">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md">
+            <h1>BodyTrack</h1>
+            <p class="lead">Your Daily Health & Fitness Coach</p>
+            <!-- Apple Store Button -->
+            <a href="https://apps.apple.com/us/app/bodytrack/idYOUR_APP_ID" target="_blank">
+              <img class="app-store-button" src="./assets/img/App_Store_Badge.svg" alt="Download on the App Store">
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="assets/img/Shot.png" alt="3 BodyTrack screenshot" class="img-fluid">
+          </div>
         </div>
-    </section>
+      </div>
+    
+  </section>
 
-    <!-- Features Section -->
-    <section id="features">
-        <div class="container">
-            <h2 class="text-center mb-5">Features</h2>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <i class="bi bi-graph-up feature-icon"></i>
-                    <h4>Calorie Tracking</h4>
-                    <p>Effortlessly monitor your daily calorie intake.</p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <i class="bi bi-geo-alt feature-icon"></i>
-                    <h4>Workout Routes</h4>
-                    <p>Record your workout paths with integrated location tracking.</p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <i class="bi bi-bell feature-icon"></i>
-                    <h4>Smart Reminders</h4>
-                    <p>Get timely notifications for meals, water, and workouts.</p>
-                </div>
-            </div>
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <h2 class="text-center mb-5">Features</h2>
+      <div class="row text-center">
+        <!-- Calorie Tracking Feature with Photo -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-graph-up feature-icon"></i>
+          <h4>Calorie Tracking</h4>
+          <p>Monitor your daily calorie balance from food and exercise.</p>
+          <img src="assets/img/feature-calories.png" alt="Calorie Tracking" class="feature-img">
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 BodyTrack. All rights reserved.</p>
+        <!-- Food Logging Feature -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-list-ul feature-icon"></i>
+          <h4>Food Logging</h4>
+          <p>Easily log your meals and snacks by category.</p>
+          <img src="assets/img/feature-food.png" alt="Food Logging" class="feature-img">
         </div>
-    </footer>
+        <!-- Workout Routes Feature -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-geo-alt feature-icon"></i>
+          <h4>Workout Routes</h4>
+          <p>Record and map your workout routes using built-in location tracking.</p>
+          <img src="assets/img/feature-workout.png" alt="Workout Routes" class="feature-img">
+        </div>
+      </div>
+      <div class="row text-center">
+        <!-- Steps & Water Tracking Feature -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-speedometer2 feature-icon"></i>
+          <h4>Steps & Water Tracking</h4>
+          <p>Reach your 10,000 steps goal and track your water intake easily.</p>
+          <img src="assets/img/feature-steps-water.png" alt="Steps & Water Tracking" class="feature-img">
+        </div>
+        <!-- Calendar & Weekly Goals Feature -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-calendar3 feature-icon"></i>
+          <h4>Calendar & Weekly Goals</h4>
+          <p>Review your progress with a detailed calendar view and weekly summaries.</p>
+          <img src="assets/img/feature-calendar.png" alt="Calendar & Weekly Goals" class="feature-img">
+        </div>
+        <!-- Weight Management & Smart Reminders Feature -->
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-gear feature-icon"></i>
+          <h4>Weight Management & Smart Reminders</h4>
+          <p>Track your weight, set personalized goals, and receive smart notifications.</p>
+          <img src="assets/img/feature-weight.png" alt="Weight Management & Smart Reminders" class="feature-img">
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BodyTrack. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
