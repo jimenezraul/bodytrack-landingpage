@@ -20,9 +20,6 @@
 
   .navbar-dark {
     background-color: #1A1A40;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
   }
   
   .navbar-dark .navbar-brand,
@@ -170,11 +167,7 @@
     color: #fff;
     padding: 20px 0;
   }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+  
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -211,7 +204,6 @@
     font-size: 14px;
     margin-top: 20px;
     background-color: #fff;
-    padding: 5rem;
     margin-bottom: 20px;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
