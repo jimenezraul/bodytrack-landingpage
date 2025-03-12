@@ -22,4 +22,4 @@ BodyTrack is a 100% free fitness and health-tracking app designed to help users 
 - Local Notifications
 
 ## AppStore
-- [BodyTrack: Fitness Tracker](https://apps.apple.com/app/bodytrack-calories-tracker/id6742031983)
+- [BodyTrack: Fitness Tracker](https://apps.apple.com/us/app/bodytrack-fitness-tracker/id6742031983)
