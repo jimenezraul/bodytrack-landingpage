@@ -162,10 +162,19 @@
     padding-bottom: 3rem;
   }
 
+  #nutrition-scanner {
+    background-color: #f0f4f8; /* Light, clean background */
+    padding: 60px 0; /* Optional: adjust vertical padding as needed */
+  }  
+
+  #personal-goals {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(59, 1, 141, 0.8)); /* Adjust colors as needed */
+  }
+
   footer {
-    background-color: #333;
+    background-color: #1A1A40;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
   }
   
   .footer-content {
